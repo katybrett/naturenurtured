@@ -1,0 +1,143 @@
+<html>
+    <head>
+
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/elbobo/aframe-multisrc-component/b6d23310/dist/0.2/aframe-multisrc-component.js"></script>
+    <script src="https://rawgit.com/feiss/aframe-environment-component/master/dist/aframe-environment-component.min.js"></script>
+    <script  src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+  <script src="https://rawgit.com/Ctrl-Alt-Zen/aframe-mobile-controls/master/components/twoway-motion/twoway-motion.js"></script>
+
+  </head>
+  
+    <body>
+
+       <a-scene>  
+         
+        <a-entity position="35 2 -40" rotation="0 120 0">
+          <a-camera twoway-motion="speed: 60"></a-camera>
+        </a-entity>
+
+      
+        <a-entity light="type: ambient; intensity: 0.5"></a-entity>
+
+        <a-entity environment="preset:goldmine;seed:53;skyType:gradient;playArea:1.4;skyColor:#6e9bb7;horizonColor:#b8c1e8;lighting:ambient;lightPosition:-0.09 3 0.33;fog:0.4;ground:canyon;groundTexture:walkernoise;groundColor:#1a1d06;groundColor2:#242909;dressingAmount:0"></a-entity>
+
+
+        <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fmalevich.jpg?1543455305982" scale="4 4 4" material="" geometry="" position="0 3 3.930813649623671" rotation="0 180 0"></a-image>
+
+          <!-- wind -->
+          <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Frobertwalker.jpg?1543455297303" position="4.704875925178193 3.2 -8.861802606914633" scale="4 4 4" material="" geometry=""></a-image>
+          <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2FBoreas.jpg?1543455306466" position="-8.893188834967495 3 0" scale="4.5 4.5 4.5" rotation="0 90 0" material="" geometry=""></a-image>
+          <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fmatisse.jpg?1543455300900" position="0.6363826255580527 3.2 8.86960875732509" scale="6 4 4" rotation="0 180 0" material="" geometry=""></a-image>
+          
+          <!-- water -->
+          <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fsugimoto.jpg?1543455304036" position="0.8938162254971189 3.2 14.859752960224595" scale="6 4 4" material="" geometry=""></a-image>
+          <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Ftraceyeminshelaydown.jpg?1543455301530" position="-6.296324722403387 3.2 14.829050942646472" scale="6 4 4" rotation="0 180 0" material="" geometry=""></a-image>
+          <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fboticellivenus.jpg?1543455308836" position="2.9859107853993088 3 -14.836424340250467" scale="9 5 4" material="" geometry=""></a-image>
+          <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fhydrant.jpg?1543455305150" position="-14.84645467907819 3 -5.8354425345888234" scale="5 3.5 4" rotation="0 90 0" material="" geometry=""></a-image>
+          <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fdavidhockneymidnightpool.jpg?1543455299609" position="-14.852213040294394 3.0097451577024197 5.397402273706593" scale="5 3.5 4" rotation="0 90 0" material="" geometry=""></a-image>
+
+         <!-- earth -->
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fmonarchoftheglen.jpg?1543455298086" position="-3.622098698049655 3 -20.85755940944268" scale="6 4 4" material="" geometry=""></a-image>
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Frichardlong.jpeg?1543455304279" position="0.504520120143809 2.847772309673731 20.833655481278804" scale="8 4 4" rotation="0 180 0" material="" geometry=""></a-image>
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fnicolaspoussin.jpg?1543455303615" position="4.650592226487431 3 -20.891917440792678" scale="7 4 4" material="" geometry=""></a-image>
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fpottersmall.jpg?1543455302819" position="-7.744646426729627 3 20.892359604284078" rotation="0 180 0" scale="6 4 1" material="" geometry=""></a-image>
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fmargaret-opt.jpg?1543455306219" position="20.795424018445665 3 -1.319707028205718" rotation="0 -90 0" scale="5.5 4 1" material="" geometry=""></a-image> 
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fivon.jpg?1543455303354" position="-20.85892482494782 3 -1.3673747953398223" rotation="0 90 0" scale="8 4 1" material="" geometry=""></a-image> 
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Faschenblume-opt.jpg?1543455302761" position="20.780777238316958 3 6.530814212215496" rotation="0 -90 0" scale="7 5 1" material="" geometry=""></a-image> 
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fodilon_redon_1840_1916_bailly_gallery_1334.jpg?1543455307388" position="-20.896568294774685 3 -7.445251903596727" rotation="0 90 0" scale="2 3 1" material="" geometry=""></a-image>
+
+         <!-- fire -->
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2FPrometheus.jpg?1543455303643" position="-9.39770736962106 3 -26.63" scale="3 4 5" material="" geometry=""></a-image>
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2FHenry_Salem_Hubbell_HUH003.jpg?1543455302867" position="-26.67553999714181 2.933712877514936 11.9771072690876" scale="4 5 5" rotation="0 90 0" material="" geometry=""></a-image>
+<a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2FJohn_Martin_-_The_Great_Day_of_His_Wrath_-_Google_Art_Project-opt.jpg?1543455306348" position="-26.722 3.709120889247373 -17.821" scale="8 6 1" material="" geometry="" rotation="0 90 0"></a-image>
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2F617.jpg?1543455297529" position="26.725262969791643 3 -3.713001298784164" rotation="0 -90 0" scale="4 4 1" material="" geometry=""></a-image>
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fboschhell.jpg?1543455305694" position="17.057959725663487 3 -26.59262883390612" scale="5 5 1" material="" geometry="" rotation="0 180 0"></a-image>
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Ffirewood.jpg?1543455300755" position="-14.426732341697281 3 -26.674939292011373" scale="4 4 1" material="" geometry=""></a-image>
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2FChicago-fire1-opt.jpg?1543455300021" geometry="" position="-26.744568921588865 3.0693486445499563 5.89396134656492" rotation="0 270 0" scale="5 5 1" material=""></a-image>
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fcarl.jpg?1543455297809" geometry="" position="-14.853228309111671 3 26.703829493278363" scale="4 5 1" material="" rotation="0 180 0"></a-image>
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fcali.jpg?1543455300793" geometry="" position="26.716773848668563 3 -10.530706508913132" rotation="0 -90 0" scale="6 4.5 1" material=""></a-image>
+         <a-image src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fdavidfire.jpg?1543455300878" geometry="" position="15.288269299909434 3 26.70974880630307" scale="4 5 1" material="" rotation="0 180 0"></a-image>
+         
+         <!-- rooms -->
+         <a-box scale="0.2 8 4" multisrc="src1:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fwhitemarble.jpg?1543456802643;src0:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684;src4:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684;src5:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684" position="4.196 4 2.107" ></a-box>
+         <a-box scale="0.2 8 8" multisrc="src1:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684;src0:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fwhitemarble.jpg?1543456802643;src4:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684;src5:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684" position="-3.64 4 0" ></a-box>
+         <a-box scale="0.2 8 8" multisrc="src1:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684;src0:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fwhitemarble.jpg?1543456802643;src4:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684;src5:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684" position="0.275 4 4.053"  rotation="0 90 0"></a-box>
+         <a-box scale="0.2 8 12.6" multisrc="src1:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fwhitemarble.jpg?1543456802643;src0:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684;src4:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684;src5:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684" position="2.569 4 -3.92"  rotation="0 90 0"></a-box>
+
+         <a-box scale="0.2 8 13.1" multisrc="src1:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684;src0:#water;src4:#water;src5:#water" position="9 4 2.53" ></a-box>
+         <a-box scale="0.2 8 24" multisrc="src1:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684;src0:#water;src4:#water;src5:#water" position="3.006 4 -9" rotation="0 90 0" ></a-box>
+         <a-box scale="0.2 8 18" multisrc="src1:#water;src0:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684;src4:#water;src5:#water" position="0 4 9" rotation="0 90 0" ></a-box>
+         <a-box scale="0.2 8 18" multisrc="src1:#water;src0:https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684;src4:#water;src5:#water" position="-9 4 0" ></a-box>
+  
+         <a-box scale="0.2 8 30" multisrc="src1:#earth;src0:#water;src4:#earth;src5:#earth" position="-15 4 0" ></a-box>
+         <a-box scale="0.2 8 24.2" multisrc="src1:#water;src0:#earth;src4:#earth;src5:#earth" position="15.06 4 2.99" ></a-box>
+         <a-box scale="0.2 8 36" multisrc="src1:#water;src0:#earth;src4:#earth;src5:#earth" position="3.00 4 -15" rotation="0 90 0" ></a-box>
+         <a-box scale="0.2 8 30" multisrc="src1:#earth;src0:#water;src4:#earth;src5:#earth" position="0.11 4 15" rotation="0 90 0" ></a-box>
+  
+         <a-box scale="0.2 8 42" multisrc="src1:#fire;src0:#earth;src4:#fire;src5:#fire" position="0 4 21" rotation="0 90 0" ></a-box>
+         <a-box scale="0.2 8 48" multisrc="src1:#earth;src0:#fire;src4:#fire;src5:#fire" position="2.952 4 -21" rotation="0 90 0" ></a-box>
+         <a-box scale="0.2 8 42" multisrc="src1:#fire;src0:#earth;src4:#fire;src5:#fire" position="-21 4 0" ></a-box>
+         <a-box scale="0.2 8 36.2" multisrc="src1:#earth;src0:#fire;src4:#fire;src5:#fire" position="21 4 2.97" ></a-box>
+
+         <a-box  scale="0.5 8 53" multisrc="src1:#fire;src0:#whitestone" position="27 4 0.75" ></a-box>
+         <a-box  scale="0.5 8 54.5" multisrc="src0:#fire;src1:#whitestone" position="-27 4 0" ></a-box>
+         <a-box  scale="0.5 8 54.5" multisrc="src0:#fire;src1:#whitestone" position="0 4 27" rotation="0 90 0" ></a-box>
+         <a-box  scale="0.6 8 54.5" multisrc="src1:#fire;src0:#whitestone" position="0 4 -27" rotation="0 90 0" ></a-box>  
+         <a-box  scale="0.5 6 1" multisrc="src1:#fire" position="27 4.982963857390747 -26.205" material="" geometry="">
+         
+         <a-animation attribute="position" to="27 3 -26.205" direction="alternate" dur="2000"
+      repeat="indefinite"></a-animation>
+         </a-box>
+         
+         
+         
+         <a-assets>
+          <img id="water" src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fwaterwallpaper1-opt.jpg?1543454837084">
+          <img id="air" src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fairwallpaper1-opt.jpg?1543454836684">
+          <img id="earth" src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fearthwallpaper1-opt.jpg?1543454836898">
+          <img id="fire" src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Ffirewall1.png?1543454841485">
+           <img id="whitestone" src="https://cdn.glitch.com/a0f4f184-5439-477d-b42c-11f3aa828b56%2Fwhitemarble.jpg?1543456802643">
+         </a-assets>
+          
+
+         
+         
+          <a-cylinder position="0.14244588912785794 0 4.917139096441633" scale="0.4 2 0.4" src="#air" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-4.373755471301873 0 0.08384821583014102" scale="0.4 2 0.4" src="#air" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="4.545420907962754 0 -5.187914627844762" scale="0.4 2 0.4" src="#air" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="1.9504548951179546 0 10" scale="0.4 2 0.4" color="22222" src="#water" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-2.041608578944338 0 10" scale="0.4 2 0.4" color="22222" src="#water" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-5.666663873823498 0 10" scale="0.4 2 0.4" color="22222" src="#water" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-9.776352051324487 0 6.628808968152725" scale="0.4 2 0.4" src="#water" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-9.776352051324487 0 -5.463850385935185" scale="0.4 2 0.4" src="#water"color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="0.1972732222263005 0 -10.053337032376735" scale="0.4 2 0.4" src="#water" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="3.3661657049926044 0 -10.053337032376735" scale="0.4 2 0.4" src="#water" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="6.221736269244107 0 -10.053337032376735" scale="0.4 2 0.4" src="#water" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="15.8 0 -2.0836869141152796" scale="0.4 2 0.4" color="22222"src="#earth" material="" geometry=""></a-cylinder>
+          <a-cylinder position="15.8 0 6.610407473595913" scale="0.4 2 0.4" color="22222" src="#earth" material="" geometry=""></a-cylinder>
+          <a-cylinder position="0.8141495834991712 0 15.91504609810169" scale="0.4 2 0.4" src="#earth" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-7.482100493524722 0 15.91504609810169" scale="0.4 2 0.4" src="#earth" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-15.89303648843754 0 -6.942475855512384" scale="0.4 2 0.4" src="#earth" color="22222" material="" geometry=""></a-cylinder><a-cylinder position="-15.89303648843754 0 -0.46656333191620547" scale="0.4 2 0.4" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-4.26772247225272 0 -16.010527689061327" scale="0.4 2 0.4" src="#earth" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="4.647494860520538 0 -16.010527689061327" scale="0.4 2 0.4" src="#earth" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="21.842723662123706 0 -4.758328198605853" scale="0.4 2 0.4" src="#fire" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="16.532269296940736 0 21.925215268931908" scale="0.4 2 0.4" src="#fire" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-14.897211582037473 0 21.925215268931908" scale="0.4 2 0.4" src="#fire" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-21.808576050378143 0 12.758131921090364" scale="0.4 2 0.4" src="#fire" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-21.808576050378143 0 6.123181296492305" scale="0.4 2 0.4" src="#fire" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-21.808576050378143 0 -15.673988301861925" scale="0.4 2 0.4" src="#fire" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-21.808576050378143 0 -19.697943603623408" scale="0.4 2 0.4" src="#fire" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-15.746634183425973 0 -21.781485446141133" scale="0.4 2 0.4" src="#fire" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="-10.440892816916875 0 -21.781485446141133" scale="0.4 2 0.4" src="#fire" color="22222" material="" geometry=""></a-cylinder>
+          <a-cylinder position="16.404805329986594 0 -21.781485446141133" scale="0.4 2 0.4" src="#fire" color="22222" material="" geometry=""></a-cylinder>
+                  
+                  <a-cylinder scale="1 2 1" src="#whitestone" material="" geometry=""></a-cylinder>
+           
+       
+         
+        </a-scene>
+
+  </body>
+  
+  </html>
